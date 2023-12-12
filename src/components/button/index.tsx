@@ -1,5 +1,5 @@
 import React from "react";
-import { VariantProps, cva, cx } from "class-variance-authority";
+import { VariantProps, cva } from "class-variance-authority";
 import cn from "~/utils/tailwind-merge";
 
 const buttonVariant = cva(

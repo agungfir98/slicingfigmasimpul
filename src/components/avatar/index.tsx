@@ -1,5 +1,5 @@
 import React from "react";
-import IconPerson from "../icons/person";
+import { IconPerson } from "~/components/icons";
 import { VariantProps, cva } from "class-variance-authority";
 import cn from "~/utils/tailwind-merge";
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { cva, VariantProps } from "class-variance-authority";
 import cn from "~/utils/tailwind-merge";
-import IconSearch from "../icons/search";
-import Button from "../button";
+import { IconSearch } from "~/components/icons";
+import Button from "~/components/button";
 
 const searchBarVariant = cva(
 	"inline-flex w-full outline outline-2 rounded-sm px-10",

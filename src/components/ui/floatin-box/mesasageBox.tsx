@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Avatar from "~/components/avatar";
 import GroupAvatar from "~/components/grouped-avatar";
 import SearchBar from "~/components/searchBar";
 

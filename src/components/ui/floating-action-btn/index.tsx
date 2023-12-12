@@ -2,9 +2,7 @@
 import React from "react";
 import Button from "~/components/button";
 import FloatingWrapper from "~/components/floating-btn-wrapper";
-import IconBook from "~/components/icons/book";
-import IconMessage from "~/components/icons/message";
-import IconThunder from "~/components/icons/thunder";
+import { IconBook, IconMessage, IconThunder } from "~/components/icons";
 import { useActionStore } from "~/store/action-btn.store";
 import cn from "~/utils/tailwind-merge";
 
