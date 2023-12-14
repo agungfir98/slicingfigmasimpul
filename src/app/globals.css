@@ -13,5 +13,30 @@
 		--tint-blue: #8785ff;
 		--tint-red: #eb5757;
 		--tint-yellow: #f2c94c;
+
+		--chat-orange: #e5a443;
+		--chat-orange-tint: #fceed3;
+		--chat-purple: #9b51e0;
+		--chat-purple-tint: #eedcff;
+		--chat-green: #43b78d;
+		--chat-green-tint: #d2f2ea;
 	}
+}
+
+div::-webkit-scrollbar {
+	transform: translateX(-10px);
+	width: 8px;
+}
+div::-webkit-scrollbar-thumb {
+	background-color: var(--bg-third);
+	border-radius: 20px;
+}
+
+textarea::-webkit-scrollbar {
+	transform: translateX(-10px);
+	width: 8px;
+}
+textarea::-webkit-scrollbar-thumb {
+	background-color: var(--bg-third);
+	border-radius: 20px;
 }
